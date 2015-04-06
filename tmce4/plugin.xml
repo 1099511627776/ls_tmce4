@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">tinyMCE 4</lang>
+        <lang name="russian">tinyMCE 4</lang>
+    </name>
+    <author>
+        <lang name="default">1099511627776</lang>
+        <lang name="russian">1099511627776</lang>
+    </author>
+    <homepage>http://habrahabr.ru/users/1099511627776/</homepage>
+    <version>0.0.1</version>
+    <requires>
+        <livestreet>1.0.1</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <priority>1000</priority>
+    <description>
+        <lang name="default">tinyMCE 4</lang>
+        <lang name="russian">tinyMCE 4</lang>
+    </description>
+</plugin>
