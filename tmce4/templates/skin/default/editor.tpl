@@ -43,6 +43,7 @@
                             $('#tmce4_form input').val(null);
                             callback(response.sFile);
                         });
+                        $('#tmce4_form').unbind('submit');
                         return false;
                      });
                      $('#tmce4_form input').click();
@@ -87,6 +88,7 @@
                                     $('#tmce4_form input').val(null);
                                     callback(response.sFile);
                                 });
+                                $('#tmce4_form').unbind('submit');
                                 return false;
                              });
                              $('#tmce4_form input').click();
