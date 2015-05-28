@@ -1,9 +1,9 @@
 {if $oConfig->GetValue('view.tinymce')}
+    <script src="{$aTemplateWebPathPlugin.tmce4}js/settings.js"></script>
     {if !$sSettingsTinymce}
         {assign var="sSettingsTinymce" value="ls.settings.getTinymce()"}
     {/if}
     <script src="{$aTemplateWebPathPlugin.tmce4}js/tinymce/tinymce.min.js"></script>
-    <script src="{$aTemplateWebPathPlugin.tmce4}js/settings.js"></script>
     <script type="text/javascript">
         jQuery(function($){
             if (!!ls.comments.setFormText){
